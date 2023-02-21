@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    font-family: 'heebo', sans-serif, comic sans-serif;
+    padding-top: 80px;
+    background-image:url('images/BG.png');
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 6px 0 rgb(164, 155, 155);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;   
+}
+
+header nav ul li a {
+    color: #333131;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #4d5ce5;
+}
+
+header nav ul li:last-of-type a {
+    margin-right: 0;
+}
+
+section.hero img {
+    width: 100%;
+    height: auto;
+
+}
+
+section.hero{
+    position: relative;
+}
+
+section.hero img {
+    width: 100%;
+    height: auto;
+    -o-box-shadow:      12px 12px 29px rgb(148, 148, 148);
+    -icab-box-shadow:   12px 12px 29px rgb(148, 148, 148);
+    -khtml-box-shadow:  12px 12px 29px rgb(148, 148, 148);
+    -moz-box-shadow:    12px 12px 29px rgb(148, 148, 148);
+    -webkit-box-shadow: 12px 12px 29px rgb(148, 148, 148);
+    box-shadow:         12px 12px 29px rgb(148, 148, 148);
+}
+
+.hero-text {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-text .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-text h1 {
+    max-width: 500px;
+    color: rgb(34, 33, 33);
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+    letter-spacing: 1.25px;
+    line-height: 56px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+section.our-cakes1 h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+section.our-cakes1 .product {
+    margin-top: 0px;
+    #background-color: rgb(186, 177, 177);
+    margin-bottom: 0px;
+}
+
+section.our-cakes1 .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0, 8px;
+    margin-top: 30px;
+}
+
+section.our-cakes1 .product .cakes {
+    border-radius: 9px;
+    border: 0.5px solid rgb(237, 231, 231, 0.8);
+    box-shadow: 2px 2px rgba(236, 236, 236, 0.8);
+    width: 33%;
+    text-align: center;
+    margin: 10px 8px;
+    padding: 20px;
+    background-color: rgb(200,200,200,0.18);
+}
+
+section.our-cakes1 .product .cakes .cakes-button button{
+    margin-top: 30px;
+    height: 50px;
+    width: 220px;
+    border: 0.5px solid rgb(135, 135, 135);
+    background-color: white;
+    border-radius: 220px;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+section.our-cakes1 .product .cakes .cakes-button button:hover {
+    background-color: #4d5ce5;
+    border: 0.5px solid rgb(135, 135, 135);
+    color: white;
+}
+
+section.getnotified {
+    background-color: rgb(200,200,200,0.18);
+    max-width: 950px;
+    text-align: center;
+    padding: 70px 0;
+    margin: 80px auto;
+}
+
+section.getnotified h3 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.getnotified p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section.getnotified form {
+    display: flex;
+    justify-content: center;   
+}
+
+section.getnotified form input {
+    height: 50px;
+    width: 330px;
+    max-width: 80%;
+    border-radius: 150px 0 0 150px;   
+    box-sizing: border-box;
+    border: 1.5px solid rgb(209, 209, 209) ;
+    border-right: none;
+    font-family: Heebo;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+section.getnotified form button {
+    height: 50px;
+    width: 165px;
+    max-width: 80%;
+    border-radius: 0 150px 150px 0;
+    box-sizing: border-box;
+    background-color: deepskyblue;
+    border: 1.5px solid rgb(209, 209, 209);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 00.3px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.getnotified form button:hover {
+    background-color: #ffffff;
+    border: 1.5px solid rgb(209, 209, 209);
+    color: #4d5ce5;
+}
+
+footer .bottom-nav {
+    padding: 60px 0;
+    background-color: #3E3E3E;    
+}
+
+footer .bottom-nav .container {
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-nav ul {
+    list-style: none;
+}
+
+footer .bottom-nav ul li a {
+    color: #E0E0E0;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+footer .bottom-nav ul li a:hover {
+    color: #4d5ce5;
+}
+
+footer .bottom-nav ul li.list-title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
